@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>TP MVC 25</title>
-      <link rel="stylesheet" href="/praktikum/tugas/sepuluh/TP8DPBO2425C/tp_mvc25/bootstrap.min.css">
+      <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       
 </head>
 <body>
