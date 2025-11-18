@@ -29,35 +29,14 @@ Aplikasi web untuk mengelola data dosen dan department menggunakan arsitektur Mo
 ## Struktur Folder
 ```
 tp_mvc25/
-│
-├── config/
-│   └── config.php
-│
-├── models/
-│   ├── DB.php
-│   ├── Department.php
-│   └── Lecturer.php
-│
-├── views/
-│   ├── templates/
-│   │   ├── header.php
-│   │   └── footer.php
-│   │
-│   ├── departments/
-│   │   ├── index.php
-│   │   ├── create.php
-│   │   └── edit.php
-│   │
-│   └── lecturers/
-│       ├── index.php
-│       ├── create.php
-│       └── edit.php
-│
-├── controllers/
-│   ├── DepartmentController.php
-│   └── LecturerController.php
-│
-└── index.php
+├── config/           # Konfigurasi aplikasi
+├── models/           # Model data (DB, Department, Lecturer)
+├── views/           # Template dan tampilan
+│   ├── templates/   # Layout umum (header, footer)
+│   ├── departments/ # Tampilan untuk department
+│   └── lecturers/   # Tampilan untuk dosen
+├── controllers/     # Controller (DepartmentController, LecturerController)
+└── index.php        # Router utama
 ```
 
 ## 🔄 Alur Kerja
@@ -114,5 +93,3 @@ Database terdiri dari dua tabel utama:
 ### Full Test CRUD
 [Documentation untuk testing semua fungsi CRUD]
 
-
-Saya **Vivi Agustina Suryana** dengan **NIM 2400456** mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek. Untuk keberkahan-Nya, maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan.
