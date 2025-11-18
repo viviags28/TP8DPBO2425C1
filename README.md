@@ -93,5 +93,10 @@ Database terdiri dari dua tabel utama:
 
 
 ### Full Test CRUD
-[Documentation untuk testing semua fungsi CRUD]
+
+https://github.com/user-attachments/assets/9c2dc503-8ee9-4384-b62b-8adb734faaf8
+
+
+
+
 
